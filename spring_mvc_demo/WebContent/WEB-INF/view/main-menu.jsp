@@ -12,7 +12,8 @@
 	</div>
 	
 	<div class="holder">
-		<a href="helloworld/showForm">Show Form</a>
+		<a href="helloworld/showForm">Show Hello World Form</a>
+		<a href="student/showForm">Show Student Form</a>
 	</div>
 	
 </body>
