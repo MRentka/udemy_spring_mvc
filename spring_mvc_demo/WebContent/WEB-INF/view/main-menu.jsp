@@ -12,7 +12,7 @@
 	</div>
 	
 	<div class="holder">
-		<a href="showForm">Show Form</a>
+		<a href="helloworld/showForm">Show Form</a>
 	</div>
 	
 </body>
