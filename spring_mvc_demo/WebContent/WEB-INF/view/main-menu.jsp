@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css">
 </head>
 <body>
-	<h1>Spring MVC Demo</h1>
-	<a href="showForm">Show Form</a>
+	
+	<div class="holder">
+		<!-- find out more about pageContext... -->
+		<img src="${pageContext.request.contextPath}/resources/img/panoramic_gepard.jpg" class="width100">
+		<h1>Spring MVC Demo</h1>
+	</div>
+	
+	<div class="holder">
+		<a href="showForm">Show Form</a>
+	</div>
+	
 </body>
 </html>

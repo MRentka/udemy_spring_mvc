@@ -19,6 +19,9 @@ public class HelloWorldController {
 		return "helloworld";
 	}
 	
+	/*
+	 * HttpServletRequest can be used to access  
+	 */
 	@RequestMapping("/processFormVersionTwo")
 	public String letsShoutDude(HttpServletRequest request, Model model) {
 		
