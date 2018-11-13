@@ -4,11 +4,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HomeController {
+public class FunnyController {
 
-	@RequestMapping("/")
-	public String showPage() {
-		return "main-menu";
+	@RequestMapping("/showForm")
+	public String displayForm() {
+		return "blabla";
 	}
-	
 }
