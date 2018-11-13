@@ -15,14 +15,10 @@
 	<context:component-scan base-package="base" />
 
 	<!-- Step 4: Add support for conversion, formatting and validation support -->
-<<<<<<< HEAD
 	<mvc:annotation-driven/>
 	
 	<!--  Step 4.1: Resources Folder -->
 	<mvc:resources location="/resources/" mapping="/resources/**" />
-=======
-	<mvc:annotation-driven />
->>>>>>> branch 'master' of https://github.com/MRentka/udemy_spring_mvc.git
 
 	<!-- Step 5: Define Spring MVC view resolver -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
