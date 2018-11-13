@@ -14,7 +14,7 @@ public class StudentController {
 		
 		Student stud = new Student();
 		model.addAttribute("student", stud);
-		return "student-form";
+		return "/student/student-form";
 	}
 	
 	@RequestMapping("/processForm")
@@ -22,6 +22,6 @@ public class StudentController {
 		
 		System.out.println("Student: " + student.getFirstName());
 		System.out.println("Student: " + student.getLastName());
-		return "student-confirmation";
+		return "/student/student-confirmation";
 	}
 }

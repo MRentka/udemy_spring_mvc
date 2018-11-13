@@ -8,17 +8,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping("/hello")
+@RequestMapping("/helloworld")
 public class HelloWorldController {
 
 	@RequestMapping("/showForm")
 	public String showForm() {
-		return "helloworld-form";
+		return "/helloworld/helloworld-form";
 	}
 	
 	@RequestMapping("/processForm")
 	public String processForm() {
-		return "helloworld";
+		return "/helloworld/helloworld";
 	}
 	
 	@RequestMapping("/processFormVersionTwo")
@@ -29,7 +29,7 @@ public class HelloWorldController {
 		String result = "Yo! " + theName;
 		
 		model.addAttribute("message", result);
-		return "helloworld";
+		return "/helloworld/helloworld";
 	}
 	
 	@RequestMapping("/processFormVersionThree")
